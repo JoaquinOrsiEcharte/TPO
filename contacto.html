@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="contacto.js">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <div class="container-form sign-up">
+        <form class="formulario" id="form">
+            <h2 class="contact">Contactanos</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxl-instagram'></a></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-linkedin' ></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-facebook-circle' ></i>
+                </div>
+            </div>
+            <br>
+            <input type="text" id="nombre" placeholder="Nombre">
+            <input type="email" id="email" placeholder="Email">
+            <textarea name="text" id="comentario" cols="30" rows="10" placeholder="Escriba su consulta"></textarea>
+            <input type="submit" value="Enviar">  
+            <p class="warnings" id="warnings"></p>
+            <p class="warnings2" id="warnings2"></p>
+        </form>
+    </div>    
+    <a class="volver" href="index.html">Inicio</a>
+    <script src="contacto.js"></script>
+</body>
+</html>
